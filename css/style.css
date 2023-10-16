@@ -65,19 +65,20 @@ MAIN
   height: 730px;
   margin: 40px auto;
   justify-content: space-betweens;
-  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .box-big {
   background-color: #b5ddff;
-  width: 75%;
+  flex-basis: 75%;
   height: 300px;
   border: 1px solid black;
+  flex-grow: 1;
 }
 
 .box-small {
   background-color: #b5ddff;
-  width: 25%;
+  flex-basis: 25%;
   height: 300px;
   border: 1px solid black;
 }
