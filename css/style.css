@@ -61,7 +61,23 @@ MAIN
 */
 .container {
   max-width: 1140px;
-  background-color: aqua;
+  background-color: yellowgreen;
   height: 730px;
-  margin: 0 auto;
+  margin: 40px auto;
+  justify-content: space-betweens;
+  gap: 30px;
+}
+
+.box-big {
+  background-color: #b5ddff;
+  width: 75%;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.box-small {
+  background-color: #b5ddff;
+  width: 25%;
+  height: 300px;
+  border: 1px solid black;
 }
