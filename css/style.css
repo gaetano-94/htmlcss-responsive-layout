@@ -61,11 +61,12 @@ MAIN
 */
 .container {
   max-width: 1140px;
-  background-color: yellowgreen;
-  height: 730px;
-  margin: 40px auto;
-  justify-content: space-betweens;
+  height: 740px;
+  background-color: yellow;
+  margin: 0px auto;
+  justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 50px;
 }
 
 .box-big {
@@ -81,4 +82,8 @@ MAIN
   flex-basis: 25%;
   height: 300px;
   border: 1px solid black;
+}
+
+.helper {
+  flex-basis: calc(100% / 3);
 }
