@@ -19,7 +19,6 @@ HEADER
 */
 header {
   background-color: #0084fd;
-  height: 70px;
 }
 
 .nav-header {
@@ -31,7 +30,6 @@ header {
 .logo,
 .menu {
   background-color: #b5ddff;
-  height: 70px;
   padding: 20px 20px;
 }
 /*
@@ -42,14 +40,12 @@ MEDIA-QUERY HEADER
 @media screen and (max-width: 768px) {
   .nav-header {
     width: 100%;
-    background-color: green;
   }
 }
 
 @media screen and (max-width: 576px) {
   .nav-header {
     width: 100%;
-    background-color: red;
   }
 }
 /*
@@ -61,29 +57,18 @@ MAIN
 */
 .container {
   max-width: 1140px;
-  height: 740px;
   background-color: yellow;
   margin: 0px auto;
-  justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 10px;
 }
 
-.box-big {
+.box {
+  width: calc((100% - 20px) / 3);
   background-color: #b5ddff;
-  flex-basis: 75%;
-  height: 300px;
-  border: 1px solid black;
-  flex-grow: 1;
 }
-
-.box-small {
-  background-color: #b5ddff;
-  flex-basis: 25%;
-  height: 300px;
-  border: 1px solid black;
-}
-
-.helper {
-  flex-basis: calc(100% / 3);
+.big {
+  width: calc(((100% - 5px) / 3) * 2);
 }
