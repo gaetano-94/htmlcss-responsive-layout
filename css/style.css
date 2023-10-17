@@ -86,7 +86,6 @@ MAIN
 */
 .container {
   max-width: 1140px;
-  background-color: yellow;
   margin: 0px auto;
   flex-wrap: wrap;
   padding-top: 50px;
@@ -97,7 +96,51 @@ MAIN
 .box {
   width: calc((100% - 20px) / 3);
   background-color: #b5ddff;
+  border-radius: 20px;
 }
 .big {
   width: calc(((100% - 5px) / 3) * 2);
+}
+
+.left {
+  padding: 30px 25px;
+}
+
+.btn-apple {
+  background-color: #0084fd;
+  color: white;
+  padding: 10px 50px;
+}
+
+.btn-apple i {
+  padding-right: 5px;
+}
+
+.title,
+.text-box {
+  padding-bottom: 25px;
+}
+
+.title {
+  color: #0084fd;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  padding-right: 90px;
+  padding-top: 40px;
+}
+
+.right img {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.font-awesome i {
+  font-size: 80px;
+  padding: 30px 150px;
+  color: #0084fd;
 }
